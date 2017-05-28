@@ -1,0 +1,68 @@
+PART 1: DISCUSSION QUESTIONS
+
+RUNTIME
+-------------------
+1. 
+The number of animal crackers in the box determines the workload because the
+more animal crackers there are, the more times I would have to reach into the
+box and take a cracker out to see if it's an elephant. Or if I could dump all
+the crackers out and look at them all at once, the more crackers there are, the
+more I'd have to look through to see if one is an elephant.
+
+
+2. 
+
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+
+
+
+STACKS AND QUEUES
+-------------------
+1. 
+    1. Stack
+    2. Queue
+    3. Stack
+
+2. 
+    1. Task lists, such as a print queue that determines which print job needs to be done first. The first job to get submitted should be the first one completed
+    2. Deleting the oldest browser histoy pages when clearing cache. The older the browser history is, the less relevant it might be to the user
+
+3.
+    1. Searching your browser history for the most recent pages you visited. The more recent pages you visited are probably the ones you care more about
+    2. "Undo" functions in a program. You would want to roll back to the most recent version/edit of your file
+
+
+LINKED LISTS
+-------------------
+1. 
+    Nodes - The boxes that hold "Apple" and its next, "Berry" and its next, and "Cherry" and its next. Each "next" is a reference (arrow) to the next node.
+    Data - The strings "Apple", "Berry", and "Cherry"
+    Head - The node that contains "Apple" and its next, which is where the "head" and its arrow is pointing to in the diagram.
+    Tail - The node that contains "Cherry" and its next, which is None. None is the next of the tail.
+
+2. Doubly-linked lists have both "next" and "prev" (the previous node) which means you can iterate in reverse. It also uses more memory. Singly linked lists can only point in one direction ("next") and requires less memory.
+
+3. Because if we keep track of the tail (i.e., by assigning the tail to the most recently appended node to the linked list), we will know exactly where it is and hence where we should be appending the next node. In other words, we will not need to traverse the linked list to find the tail if we can directly go to my_linked_list.tail
+
+
+TREES
+-------------------
+1. food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burritos
+
+2. food, Mexican, enchiladas, tacos, burritos, Indian, saag, tikka masala, Italian, pizza, Sicilian, New York-style, Chicago-style
+
+3. In binary search trees, each node can only have up to 2 children (1 left child, 1 right child). There is also an order of arrangement of nodes and their children. The key stored in a node is greater than or equal to its left child, and less than or equal to its right child. This makes for very easy searching through the binary tree, as the runtime is O(log n) since we are cutting the workload by half every time we move further down the tree. 
+
+
+
+
+
+
+
+
+
